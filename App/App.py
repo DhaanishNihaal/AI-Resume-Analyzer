@@ -339,7 +339,7 @@ def run():
                 except:
                     pass
                 
-                ## DNN-Enhanced Analysis
+                ## DNN-Enhanced Analysi
                 if use_dnn and dnn_models:
                     st.markdown("---")
                     st.header("**🧠 Deep Learning Enhanced Analysis**")
