@@ -313,7 +313,7 @@ def run():
                 f.write(pdf_file.getbuffer())
             show_pdf(save_image_path)
 
-            ### parsing and extracting whole resume 
+            ### parsing and extracting whole resume
             resume_data = ResumeParser(save_image_path).get_extracted_data()
             if resume_data:
                 
