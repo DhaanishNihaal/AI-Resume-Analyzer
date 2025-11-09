@@ -300,7 +300,7 @@ def run():
         else:
             use_dnn = False
         
-        ## file upload in pdf format
+        ## file upload in pdf format 
         pdf_file = st.file_uploader("Choose your Resume", type=["pdf"])
         if pdf_file is not None:
             with st.spinner('Hang On While We Cook Magic For You...'):
