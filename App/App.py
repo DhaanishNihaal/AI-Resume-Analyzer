@@ -288,7 +288,7 @@ def run():
         country = countryy
 
 
-        # Upload Resume
+        # Upload Resume 
         st.markdown('''<h5 style='text-align: left; color: #021659;'> Upload Your Resume, And Get Smart Recommendations</h5>''',unsafe_allow_html=True)
         
         # DNN Toggle
